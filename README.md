@@ -19,3 +19,18 @@ $red:red;
 如果有常用的就會先設定變數:$red:red; 然後看哪邊會用到 就套用$red
 
 在sass寫完樣式之後 重新存檔就可以更新做的事情了 前提是你watching有打開
+
+假如sass這樣寫      &在sass是繼承副層的意思
+.container{
+
+}&:before
+
+就等於css如下    
+
+.container{
+
+}
+
+.container:before{
+
+}
